@@ -12,6 +12,7 @@
 
 :root {
     --clr: #222327;
+    --color: #fff;
 }
 
 body {
@@ -25,7 +26,7 @@ body {
 .navigation {
     width: 400px;
     height: 70px;
-    background: white;
+    background: rgb(192, 240, 19);
     position: relative;
     display: flex;
     justify-content: center;
@@ -73,7 +74,7 @@ body {
 
 .navigation ul li a .text {
     position: absolute;
-    color: var(--clr);
+    color: var(--color);
     font-weight: 400;
     font-size: 0.75em;
     letter-spacing: 0.5em;
@@ -92,7 +93,7 @@ body {
     top: -50%;
     width: 70px;
     height: 70px;
-    background: #29fd53;
+    background: #0a43e0;
     border-radius: 50%;
     border: 6px solid var(--clr);
     transition: 0.5s;
